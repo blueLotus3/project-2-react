@@ -17,6 +17,7 @@ Use this section to include info about the API you have chosen and a code snippe
 ```
 {data: {http://api.brewerydb.com/v2//beers/?key=782b02763a57e7621f3a90353ed1e84b} }
 ```
+This API has a library of various beers that will be implemented into my APP.
 
 
 ## Wireframes
