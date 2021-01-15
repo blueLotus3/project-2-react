@@ -84,6 +84,9 @@ I'll be using Routes and switches on this App because in order for me to move to
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
+
+...
+
 const WeatherZip = ({weather}) => {
     const loaded = () => {
     return( 
@@ -95,4 +98,5 @@ const WeatherZip = ({weather}) => {
                     </>
     )    
     }
+    ...
 // I was proud of this code because this was when I got really comfortable with doing react and It was nice to figure this out and finish my homework early that night cause of this. I used this to find specific data to pull when a zip code was called in the search bar, these props were called inside their object..
