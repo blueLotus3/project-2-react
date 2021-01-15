@@ -2,8 +2,8 @@
 
 ## Project Links
 
-- [https://github.com/blueLotus3/project-2-react]()
-- [https://cra.link/deployment]()
+- [Link Name](https://github.com/blueLotus3/project-2-react)
+- [Link Name](https://cra.link/deployment)
 
 ## Project Description
 
@@ -15,11 +15,11 @@ Use this section to include info about the API you have chosen and a code snippe
 
 
 ```
-{data: {http://api.brewerydb.com/v2//beers/?key=782b02763a57e7621f3a90353ed1e84b} }
+{data: {http://api.brewerydb.com/v2//beers/?key=APIKEY }
 
 const [beer, setBeer] = React.useState(null)
-const apiKey = "782b02763a57e7621f3a90353ed1e84b"
-const url = `http://api.brewerydb.com/v2//beers/?key=782b02763a57e7621f3a90353ed1e84b`
+const apiKey = "API KEY"
+const url = `http://api.brewerydb.com/v2//beers/?key=APIKEY`
 const getBeer = async () => {
   const response = await fetch(url)
   const data = await response.json()
@@ -34,9 +34,9 @@ This API has a library of various beers that will be implemented into my APP the
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672706/IMG_2537_o2xhui.jpg]
-- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672700/IMG_2536_hmi0zi.jpg]
-- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672712/IMG_2538_bwqrsi.jpg]
+- [link name](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735174/IMG_2543_mfegvi.jpg)
+- [link name](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735180/IMG_2544_kbnm5h.jpg)
+- [link name](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735185/IMG_2545_plsezl.jpg)
 
 
 ### MVP/PostMVP - 5min
@@ -44,13 +44,13 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP EXAMPLE
-- Find and use external api 
-- Render data on page 
-- Allow user to interact with the page
+- Render Beer Types
+- Render Images 
+- Render Description
 
 #### PostMVP EXAMPLE
 
-- Add localStorage or firebase for storage
+- Filtering Beers by Types
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -59,9 +59,12 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Component | Description | 
 | --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
-| Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
+| Render Beers |This will render on the page the list of beers.| 
+| Render Images | This will render on the page images/icons of the beer | 
+| Render Types | This will render the different types of beer | 
+|     Nav      |This will be where you can click on the components to switch to|
+|    Buttons   | These will be important for clicking on the components |
+|    Filter    | This will render a type of beer when the filter is chosen |
                                                      
 
 
@@ -69,13 +72,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| API | H | 6hrs|     |     |
-| Render Data | H | 7hrs|     |     |
-| Allow Interaction | H | 6hrs |     |    |
-| Flexbox | M | 4 hrs |     |      |      |
-|CSS Styling | M | 6hrs |    |     |      |
-| Book Page | M |  8hrs |    |     |      |
-| Total | H | 37hrs|  |     |
+| Render Beers | H | 4hrs|     |     |
+| Render Images | H | 4hrs|     |     |
+| Render Types | H | 4hrs |     |    |
+|  Buttons | H |  6hrs  |     |    |
+| Nav | M | 4 hrs |     |      |      |
+|CSS Styling | M | 8hrs |    |     |      |
+| Filter Beers by Type | M |  8hrs |    |     |      |
+| Finishing Touches | M | 2hrs  |       |     |      |
+| Total | H | 40hrs|  |     |
 
 ## Additional Libraries
 I'll be using Routes and switches on this App because in order for me to move to each section smoothly and for my data to render properly.
@@ -86,17 +91,4 @@ Use this section to include a brief code snippet of functionality that you are p
 
 
 ...
-
-const WeatherZip = ({weather}) => {
-    const loaded = () => {
-    return( 
-      
-           <h1>{weather.name}</h1>
-          <h2>{weather.main.temp}&deg;F</h2> <br></br>
-    <h2>"{weather.weather[0].description}"</h2>
-          <h2>{weather.main.temp_min}&deg;F</h2> - <h2>{weather.main.temp_max}&deg;F</h2> <br></br>
-                    
-    )    
-    }
-    ...
-// I was proud of this code because this was when I got really comfortable with doing react and It was nice to figure this out and finish my homework early that night cause of this. I used this to find specific data to pull when a zip code was called in the search bar, these props were called inside their object..
+...
