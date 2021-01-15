@@ -24,8 +24,9 @@ This API has a library of various beers that will be implemented into my APP the
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes]()
-- [add link to your react architecture]()
+- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672706/IMG_2537_o2xhui.jpg]()
+- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672700/IMG_2536_hmi0zi.jpg]()
+- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672712/IMG_2538_bwqrsi.jpg]()
 
 
 ### MVP/PostMVP - 5min
@@ -84,4 +85,4 @@ const WeatherZip = ({weather}) => {
                     </>
     )    
     }
-// I was proud of this code because this was when I got really comfortable with doing react and It was nice to figure this out and finish my homework early that night cause of this. I used this to find specific data to pull when a zip code was called in the search bar, these props were called inside their object.
+// I was proud of this code because this was when I got really comfortable with doing react and It was nice to figure this out and finish my homework early that night cause of this. I used this to find specific data to pull when a zip code was called in the search bar, these props were called inside their object..
