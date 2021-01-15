@@ -4,7 +4,7 @@
 
 - [GitHub](https://github.com/blueLotus3/project-2-react)
 - [Deploy](https://cra.link/deployment)
-
+-[Mock-up](https://www.behance.net/gallery/111068931/Oro-del-sur-UI-UX-Beer-web-app?tracking_source=search_projects_recommended%7Cbeer)
 ## Project Description
 
 I would like to implement a app that has a library of different beers listed, you can search it by type, or name or even randomize to see what beer comes up. I would like to also have a nice effect to a beer when it comes up as it is presented.
