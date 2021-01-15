@@ -16,6 +16,16 @@ Use this section to include info about the API you have chosen and a code snippe
 
 ```
 {data: {http://api.brewerydb.com/v2//beers/?key=782b02763a57e7621f3a90353ed1e84b} }
+
+const [beer, setBeer] = React.useState(null)
+const apiKey = "782b02763a57e7621f3a90353ed1e84b"
+const url = `http://api.brewerydb.com/v2//beers/?key=782b02763a57e7621f3a90353ed1e84b`
+const getBeer = async () => {
+  const response = await fetch(url)
+  const data = await response.json()
+  setBeer(data)
+}
+console.log('this is data', data)
 ```
 This API has a library of various beers that will be implemented into my APP they have their type included as well thats associated with their id and has a picture thats also within the data.
 
