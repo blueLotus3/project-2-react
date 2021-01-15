@@ -4,7 +4,8 @@
 
 - [GitHub](https://github.com/blueLotus3/project-2-react)
 - [Deploy](https://cra.link/deployment)
--[Mock-up](https://www.behance.net/gallery/111068931/Oro-del-sur-UI-UX-Beer-web-app?tracking_source=search_projects_recommended%7Cbeer)
+- [Mockup](https://www.behance.net/gallery/111068931/Oro-del-sur-UI-UX-Beer-web-app?tracking_source=search_projects_recommended%7Cbeer)
+
 ## Project Description
 
 I would like to implement a app that has a library of different beers listed, you can search it by type, or name or even randomize to see what beer comes up. I would like to also have a nice effect to a beer when it comes up as it is presented.
@@ -34,7 +35,7 @@ This API has a library of various beers that will be implemented into my APP the
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [Desktop](https://cloudinary.com/console/c-f8f450b074218777a0a1997c8abca4/media_library/folders/home)
+- [Desktop](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610741838/IMG_2546_w8db6z.jpg)
 - [Tablet](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735180/IMG_2544_kbnm5h.jpg)
 - [Mobile](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735185/IMG_2545_plsezl.jpg)
 -[React Arch](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610741843/IMG_2547_ytt0i4.jpg) 
