@@ -3,7 +3,7 @@
 ## Project Links
 
 - [GitHub](https://github.com/blueLotus3/project-2-react)
-- [Deploy](https://cra.link/deployment)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/6af6f2bf-8f7b-405e-bf17-a61ab0070b10/deploy-status)](https://app.netlify.com/sites/beerbible/deploys)
 - [Mockup](https://www.behance.net/gallery/111068931/Oro-del-sur-UI-UX-Beer-web-app?tracking_source=search_projects_recommended%7Cbeer)
 
 ## Project Description
