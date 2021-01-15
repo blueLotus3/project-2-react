@@ -64,17 +64,24 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Flexbox | M | 4 hrs |     |      |      |
 |CSS Styling | M | 6hrs |    |     |      |
 | Book Page | M |  8hrs |    |     |      |
-| Total | H | 6hrs| 5hrs |     |
+| Total | H | 37hrs|  |     |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+I'll be using Routes and switches on this App because in order for me to move to each section smoothly and for my data to render properly.
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+const WeatherZip = ({weather}) => {
+    const loaded = () => {
+    return( 
+      <>
+           <h1>{weather.name}</h1>
+          <h2>{weather.main.temp}&deg;F</h2> <br></br>
+    <h2>"{weather.weather[0].description}"</h2>
+          <h2>{weather.main.temp_min}&deg;F</h2> - <h2>{weather.main.temp_max}&deg;F</h2> <br></br>
+                    </>
+    )    
+    }
+// I was proud of this code because this was when I got really comfortable with doing react and It was nice to figure this out and finish my homework early that night cause of this. I used this to find specific data to pull when a zip code was called in the search bar, these props were called inside their object.
