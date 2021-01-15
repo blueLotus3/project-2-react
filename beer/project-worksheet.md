@@ -2,8 +2,8 @@
 
 ## Project Links
 
-- [Link Name](https://github.com/blueLotus3/project-2-react)
-- [Link Name](https://cra.link/deployment)
+- [GitHub](https://github.com/blueLotus3/project-2-react)
+- [Deploy](https://cra.link/deployment)
 
 ## Project Description
 
@@ -34,9 +34,9 @@ This API has a library of various beers that will be implemented into my APP the
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [link name](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735174/IMG_2543_mfegvi.jpg)
-- [link name](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735180/IMG_2544_kbnm5h.jpg)
-- [link name](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735185/IMG_2545_plsezl.jpg)
+- [Desktop](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735174/IMG_2543_mfegvi.jpg)
+- [Tablet](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735180/IMG_2544_kbnm5h.jpg)
+- [Mobile](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735185/IMG_2545_plsezl.jpg)
 
 
 ### MVP/PostMVP - 5min
