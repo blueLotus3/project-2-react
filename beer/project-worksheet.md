@@ -34,9 +34,10 @@ This API has a library of various beers that will be implemented into my APP the
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [Desktop](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735174/IMG_2543_mfegvi.jpg)
+- [Desktop](https://cloudinary.com/console/c-f8f450b074218777a0a1997c8abca4/media_library/folders/home)
 - [Tablet](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735180/IMG_2544_kbnm5h.jpg)
 - [Mobile](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610735185/IMG_2545_plsezl.jpg)
+-[React Arch](https://res.cloudinary.com/ds7w3ysag/image/upload/v1610741843/IMG_2547_ytt0i4.jpg) 
 
 
 ### MVP/PostMVP - 5min
@@ -83,7 +84,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 40hrs|  |     |
 
 ## Additional Libraries
-I'll be using Routes and switches on this App because in order for me to move to each section smoothly and for my data to render properly.
+-Sass
+-Router
 
 ## Code Snippet
 
