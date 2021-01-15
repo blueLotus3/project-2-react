@@ -90,12 +90,12 @@ Use this section to include a brief code snippet of functionality that you are p
 const WeatherZip = ({weather}) => {
     const loaded = () => {
     return( 
-      <>
+      
            <h1>{weather.name}</h1>
           <h2>{weather.main.temp}&deg;F</h2> <br></br>
     <h2>"{weather.weather[0].description}"</h2>
           <h2>{weather.main.temp_min}&deg;F</h2> - <h2>{weather.main.temp_max}&deg;F</h2> <br></br>
-                    </>
+                    
     )    
     }
     ...
