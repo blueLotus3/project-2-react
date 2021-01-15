@@ -24,9 +24,9 @@ This API has a library of various beers that will be implemented into my APP the
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672706/IMG_2537_o2xhui.jpg]()
-- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672700/IMG_2536_hmi0zi.jpg]()
-- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672712/IMG_2538_bwqrsi.jpg]()
+- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672706/IMG_2537_o2xhui.jpg]
+- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672700/IMG_2536_hmi0zi.jpg]
+- [https://res.cloudinary.com/ds7w3ysag/image/upload/v1610672712/IMG_2538_bwqrsi.jpg]
 
 
 ### MVP/PostMVP - 5min
