@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Home from './pages/Home'
 import Beers from './pages/Beers'
-import SingleBeer from './pages/SingleBeer'
+// import SingleBeer from './pages/SingleBeer'
 import Nav from './components/Nav'
 import TypeOf from './pages/TypeOf'
 import './App.css';
@@ -14,15 +14,14 @@ function App() {
       <Nav />
       <Switch>
      <Route exact path="/">
-       
-       <Home  /> 
+      <Home  /> 
      </Route>
-     <Route path="/Beers">
+     <Route path="/Beers/">
        <Beers />
      </Route>
-     <Route path="/TypeOf">
-       <TypeOf />
-     </Route>
+         <Route path="/TypeOf/:id"
+         render={(routerProps) => <TypeOf {...routerProps} />}
+      />
      </Switch>
     </div>
   );
