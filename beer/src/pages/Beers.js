@@ -1,12 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom";
- // beer name
- // beer labels
- // beer data
+
 
  const Beers = (props) => {
      const beers =  [
-        {
+          {
         "id": "c4f2KE",
         "name": "'Murican Pilsner",
         "nameDisplay": "'Murican Pilsner",
@@ -2153,15 +2151,15 @@ import { Link } from "react-router-dom";
         }
     ]
 
-
+console.log('this is beers', beers)
 return (
     
     <div className="beers">
    {beers.map((beer) => {
-     const {name, id} = beer;
+     const {name,id} = beer;
          
      return (
-           <Link to={`/typeof/${id}`}key={id}>
+           <Link to={`/SingleBeer/ ${name} ${id} `}key={id}>
            <h2>{name}</h2>
            </Link>
      

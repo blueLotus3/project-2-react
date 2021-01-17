@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -27,3 +28,11 @@ code {
   text-decoration: none;
 }
 
+body {
+  width: 100%;
+  height: 100vh;
+  background: url("https://res.cloudinary.com/ds7w3ysag/image/upload/v1610845421/mathew-macquarrie-u6OnpbMuZAs-unsplash_g3aqnx.jpg") no-repeat center ;
+  background-size: contain;
+  position: absolute;
+  }
+  
