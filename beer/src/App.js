@@ -19,7 +19,7 @@ function App() {
      <Route path="/Beers/">
        <Beers />
      </Route>
-         <Route path="/SingleBeer/:id"
+         <Route path="/SingleBeer/:category"
          render={(routerProps) => <SingleBeer {...routerProps} />}
       />
      </Switch>
