@@ -7,7 +7,7 @@ import React from 'react'
      const Beer = (props) => {
      const {REACT_APP_APIKEY}= process.env
     const id = props.match.params.id
-    const url = `http://api.brewerydb.com/v2//beers/:${id}/?key=${REACT_APP_APIKEY}`  
+    const url = `https://api.brewerydb.com/v2//beers/:${id}/?key=${REACT_APP_APIKEY}`  
     const [beer,setBeer] = React.useState(null)
     const getBeer = async () => {
     const response = await fetch(url)
