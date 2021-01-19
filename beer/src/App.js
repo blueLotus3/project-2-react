@@ -2,26 +2,30 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Home from './pages/Home'
 import Beers from './pages/Beers'
-import SingleBeer from './pages/SingleBeer'
+import  Beer  from './pages/Beer'
 import Nav from './components/Nav'
-// import TypeOf from './pages/TypeOf'
-import './App.css';
+import TypeOf from './pages/TypeOf'
+
+import './App.scss';
 
 
-function App() {
+ function App() {
   return (
     <div className="App">
       <Nav />
       <Switch>
      <Route exact path="/">
-      <Home  /> 
+      <Home  />  
      </Route>
      <Route path="/Beers/">
        <Beers />
      </Route>
-         <Route path="/SingleBeer/:category"
-         render={(routerProps) => <SingleBeer {...routerProps} />}
+         <Route path="/Beer/:id"
+         render={(routerProps) => <Beer {...routerProps} />}
       />
+      <Route path="/TypeOf/">
+        <TypeOf />
+      </Route>
      </Switch>
     </div>
   );

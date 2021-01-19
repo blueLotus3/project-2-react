@@ -12,8 +12,8 @@ return (
 <Link to ="/Beers">
     <div>Beers</div>
 </Link>
-<Link to ="/SingleBeer">
-    
+<Link to="/TypeOf">
+    <div>Type Of</div>
 </Link>
 </div>
 
