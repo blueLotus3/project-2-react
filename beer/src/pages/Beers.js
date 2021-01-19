@@ -2161,7 +2161,7 @@ return (
      const {name,id} = beer;
          
      return (
-           <Link to={`/Beer/${name} ${id}`}key={id}>
+           <Link to={`/Beer/${name} ${id} `}key={id}>
              
            <h2>{name}</h2> 
                      </Link>
