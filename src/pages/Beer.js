@@ -25,7 +25,7 @@ import React from 'react'
          <div>
              
               <h4>{beer.data.description}</h4>
-              <h2>{id}</h2>
+              
          </div>
          
     )

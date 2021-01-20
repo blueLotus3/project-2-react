@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-
+import { Card } from "react-bootstrap"
 
  const Beers = (props) => {
  const beers =  [
@@ -2158,12 +2158,26 @@ return (
     <div className="/Beers/">
    {beers.map((beer) => {
      
-     const {name,id} = beer;
-         
-     return (
+     const {name,id,description,labels} = beer;
+    
+
+      
+     
+        return (
        
+          
            <Link to={`/Beer/${id}`}key={id}>
-             <h2>{name}</h2>   
+                  <Card style={{ width: '18rem' }}>
+     <Card.Img variant="top" src={labels}  />
+     <Card.Body>
+    <Card.Title>{name}</Card.Title>
+       <Card.Text>
+          {description}
+       </Card.Text>
+       
+     </Card.Body>
+   </Card>
+              
                      </Link>
                    
 
