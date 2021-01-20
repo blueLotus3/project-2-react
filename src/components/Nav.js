@@ -8,6 +8,7 @@ return (
 <div className="nav">
     <Link to ="/">
         <div>Beer Bible</div>
+        
     </Link>
 <Link to ="/Beers">
     <div>Beers</div>

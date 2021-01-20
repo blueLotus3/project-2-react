@@ -2152,19 +2152,21 @@ import { Link } from "react-router-dom";
     ]
 
 
-console.log('this is beers', beers)
+
 return (
     
     <div className="/Beers/">
    {beers.map((beer) => {
-     console.log('this is beer icons', beers.id)
+     
      const {name,id} = beer;
          
      return (
-           <Link to={`/Beer/${name} ${id} `}key={id}>
-             
-           <h2>{name}</h2> 
+       
+           <Link to={`/Beer/${id}`}key={id}>
+             <h2>{name}</h2>   
                      </Link>
+                   
+
       );
  })}
  </div>

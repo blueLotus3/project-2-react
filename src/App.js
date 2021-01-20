@@ -12,6 +12,7 @@ import './App.scss';
  function App() {
   return (
     <div className="App">
+      
       <Nav />
       <Switch>
      <Route exact path="/">
@@ -27,6 +28,7 @@ import './App.scss';
         <TypeOf />
       </Route>
      </Switch>
+    
     </div>
   );
 }
