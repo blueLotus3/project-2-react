@@ -14,9 +14,12 @@
 }
 
 
-// .Card-style {
-// color: black;
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  float:left;
+  position:absolute;
+}
 
-// }
-
-  
