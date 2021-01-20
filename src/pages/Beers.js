@@ -2158,21 +2158,17 @@ return (
     <div className="/Beers/">
    {beers.map((beer) => {
      
-     const {name,id,description,labels} = beer;
-    
-
-      
-     
-        return (
+     const {name,id,description} = beer;
+            return (
        
-          
-           <Link to={`/Beer/${id}`}key={id}>
-                  <Card style={{ width: '18rem' }}>
-     <Card.Img variant="top" src={labels}  />
+             <Link to={`/Beer/${id}`}key={id}>
+              <Card style={{ width: '18rem' }}>
+     <Card.Img variant="top" src="https://res.cloudinary.com/ds7w3ysag/image/upload/c_scale,h_300,w_300/v1611009102/matt-palmer-lGzhgzkN6UI-unsplash_h2tzto.jpg"/>
      <Card.Body>
     <Card.Title>{name}</Card.Title>
        <Card.Text>
           {description}
+          
        </Card.Text>
        
      </Card.Body>
@@ -2184,6 +2180,8 @@ return (
       );
  })}
  </div>
+
+ 
  
  
 )
