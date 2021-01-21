@@ -2160,7 +2160,9 @@ return (
      
      const {name,id,description} = beer;
             return (
+              
       <Link to={`/Beer/${id}`}key={id}>
+       <section className="card-section"> 
       <Card style={{ width: '18rem' }} className="card">
       <Card.Img variant="top" src="https://res.cloudinary.com/ds7w3ysag/image/upload/c_scale,h_300,w_300/v1611009102/matt-palmer-lGzhgzkN6UI-unsplash_h2tzto.jpg"/>
       <Card.Body>
@@ -2172,6 +2174,7 @@ return (
        
      </Card.Body>
      </Card>
+     </section>
      </Link>
           );
  })}
