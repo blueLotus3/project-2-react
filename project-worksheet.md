@@ -3,13 +3,12 @@
 ## Project Links
 
 - [GitHub](https://github.com/blueLotus3/project-2-react)
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/6af6f2bf-8f7b-405e-bf17-a61ab0070b10/deploy-status)](https://app.netlify.com/sites/beerbible/deploys)
+- [Deploy](beerbible.netlify.appsites/beerbible/deploys)
 - [Mockup](https://www.behance.net/gallery/111068931/Oro-del-sur-UI-UX-Beer-web-app?tracking_source=search_projects_recommended%7Cbeer)
 
 ## Project Description
 
-I would like to implement a app that has a library of different beers listed, you can search it by type, or name or even randomize to see what beer comes up. I would like to also have a nice effect to a beer when it comes up as it is presented.
-
+I would like to implement a app that has a library of different beers listed, you can see the description of the beer, You can even see a food pairing suggestion upon clicking on a selected beer.
 ## API
 
 Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
@@ -20,7 +19,7 @@ Use this section to include info about the API you have chosen and a code snippe
 
 const [beer, setBeer] = React.useState(null)
 const apiKey = "API KEY"
-const url = `http://api.brewerydb.com/v2//beers/?key=APIKEY`
+const url = `http://api.brewerydb.com/v2//beer/?key=APIKEY`
 const getBeer = async () => {
   const response = await fetch(url)
   const data = await response.json()
@@ -47,7 +46,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP EXAMPLE
 - Render Beers
-- Render Images 
+- Render FoodPairings 
 - Render Description
 
 #### PostMVP EXAMPLE

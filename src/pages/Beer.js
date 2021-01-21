@@ -13,7 +13,7 @@ import React from 'react'
     const response = await fetch(url)
     const data = await response.json()
     setBeer(data)
-      console.log('this is data', data)
+   
 }
 
     React.useEffect(() => {
@@ -24,8 +24,7 @@ import React from 'react'
         return (
          <div>
              
-              <h4>{beer.data.description}</h4>
-             {/* <img src= {beer.data.labels.medium} alt='icon'></img> */}
+            <h4>{beer.data.foodPairings}</h4>
          </div>
          
     )
