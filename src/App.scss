@@ -13,7 +13,7 @@
   color: white;
 }
 
-
+@media screen and (max-width: 600px) {
 .card-section {
   display: flex;
   justify-content: center;
@@ -94,4 +94,26 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.relax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("");
+}
+}
+@media screen and (min-width:767px) {
+
+.section-home {
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("https://res.cloudinary.com/ds7w3ysag/image/upload/v1611258832/james-wheeler-ZOA-cqKuJAA-unsplash_etybnl.jpg");
+background-repeat: no-repeat;
+}  
+
+
+
+
 }
