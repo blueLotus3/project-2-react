@@ -46,7 +46,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP EXAMPLE
-- Render Beer Types
+- Render Beers
 - Render Images 
 - Render Description
 
@@ -87,6 +87,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 ## Additional Libraries
 -Sass
 -Router
+-Hamburger
 
 ## Code Snippet
 

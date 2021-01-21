@@ -1,13 +1,16 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-
+import {slide as Menu } from 'react-burger-menu'
 
 
 const Nav = (props) => {
 return (
+ 
+    
+<Menu>    
 <div className="nav">
     <Link to ="/">
-        <div>Beer Bible</div>
+        <div>Home</div>
         
     </Link>
 <Link to ="/Beers">
@@ -17,7 +20,7 @@ return (
     <div>Type Of</div>
 </Link>
 </div>
-
+</Menu>
 
 )
 
