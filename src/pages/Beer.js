@@ -25,6 +25,7 @@ import React from 'react'
          <div>
              
             <h4>{beer.data.foodPairings}</h4>
+            <img src={beer.data.labels.contentAwareLarge} alt="icon"></img>
          </div>
          
     )

@@ -16,7 +16,7 @@ return (
       <div class="card"><p>Beer 9</p></div>
       <div class="card"><p>Beer 9</p></div>
       <div class="card"><p>Beer 10</p></div>
-    </div>
+          </div>
     </section> 
 </>
 
