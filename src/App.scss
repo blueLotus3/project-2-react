@@ -12,6 +12,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+h1 {
+  font-family: 'Lobster', cursive;
+  font-family: 'Teko', sans-serif;
+  
+}
+nav {
+  font-family: 'Lobster', cursive;
+  font-family: 'Teko', sans-serif;
+}
 
 @media screen and (max-width: 600px) {
 .card-section {
@@ -188,6 +197,7 @@ overflow-x: auto;
   margin: 5px;
   
 }
+
 
 }
 

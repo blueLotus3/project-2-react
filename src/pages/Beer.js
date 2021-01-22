@@ -13,8 +13,7 @@ import React from 'react'
     const response = await fetch(url)
     const data = await response.json()
     setBeer(data)
-   
-}
+   }
 
     React.useEffect(() => {
         getBeer()

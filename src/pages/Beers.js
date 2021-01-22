@@ -2158,7 +2158,7 @@ return (
     <div className="/Beers/">
    {beers.map((beer) => {
      
-     const {name,id,description} = beer;
+     const {name,id,description,} = beer;
             return (
               
       <Link to={`/Beer/${id}`}key={id}>
@@ -2170,7 +2170,8 @@ return (
       <Card.Title>{name}</Card.Title>
       <Card.Text>
           {description}
-              </Card.Text>
+         
+          </Card.Text>
        
      </Card.Body>
      </Card>
